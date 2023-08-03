@@ -7,6 +7,18 @@ body {
   font-family: Inter, sans-serif;
   height: 100vh;
   background-color: #282D35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  border: 16px solid #61DAFB;
+}
+
+.main{
+  border: 6px solid #61DAFB;
+  margin: 32px;
 }
 
 nav {

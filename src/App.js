@@ -6,8 +6,11 @@ import "./App.css"
 export default function App() {
     return (
         <div className="container">
-            <Navbar />
+              <div className="main">
+              <Navbar />
             <Main />
+              </div>
+           
         </div>
     )
 }
